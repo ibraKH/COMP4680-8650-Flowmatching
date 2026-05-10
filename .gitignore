@@ -8,7 +8,20 @@ wheels/
 
 # Virtual environments
 .venv
-data
-checkpoints*
-results
-__pycache__/
+
+# Data, outputs, and generated artifacts (keep local only)
+data/
+checkpoints*/
+figures/
+results/
+report/
+
+# Submission archive
+submission.zip
+
+# macOS
+.DS_Store
+
+# Claude Code internal files
+CLAUDE.md
+.tasks/
